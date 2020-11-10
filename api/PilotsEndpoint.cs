@@ -43,19 +43,19 @@ namespace api
 
         public static async Task AltitudeEndpoint(HttpContext context)
         {
-            string pilotAlt = context.Request.RouteValues["alt"] as string;
+            string pilotAltCS = context.Request.RouteValues["alt"] as string;
 
             using(var db = new VatsimDbContext())
             {
-                if(pilotAlt != null)
+                if(pilotAltCS != null)
                 {
-                    Console.WriteLine($"{pilotAlt}");
+                    Console.WriteLine($"Altitude requested for {pilotAltCS}");
                    
-                    var _alt = await db.Positions.Where(f => f.Altitude.Contains((pilotAlt ?? "").ToUpper())).ToListAsync();
+                    var _alt = await db.Positions.Where(f => f.Callsign.Contains((pilotAltCS ?? "").ToUpper())).ToListAsync();
                     
                     foreach (var item in _alt)
                     {
-                        await context.Response.WriteAsync($"Callsign {item.Callsign} is at {item.Altitude}ft" + "      ");
+                        await context.Response.WriteAsync($"At {item.TimeStamp}, {item.Callsign} was at {item.Altitude}ft" + "      ");
                     }
                 }
                 else
@@ -67,19 +67,19 @@ namespace api
 
         public static async Task GroundspeedEndpoint(HttpContext context)
         {
-            string pilotSpeed = context.Request.RouteValues["speed"] as string;
+            string pilotSpeedCS = context.Request.RouteValues["speed"] as string;
 
             using(var db = new VatsimDbContext())
             {
-                if(pilotSpeed != null)
+                if(pilotSpeedCS != null)
                 {
-                    Console.WriteLine($"{pilotSpeed}");
+                    Console.WriteLine($"Speed requested for {pilotSpeedCS}");
                    
-                    var _spd = await db.Positions.Where(f => f.Groundspeed.Contains((pilotSpeed ?? "").ToUpper())).ToListAsync();
+                    var _spd = await db.Positions.Where(f => f.Callsign.Contains((pilotSpeedCS ?? "").ToUpper())).ToListAsync();
                     
                     foreach (var item in _spd)
                     {
-                        await context.Response.WriteAsync($"Callsign {item.Callsign} is at {item.Groundspeed}knts" + "      ");
+                        await context.Response.WriteAsync($"At {item.TimeStamp}, {item.Callsign} was at {item.Groundspeed}knts" + "  ");
                     }
                 }
                 else
@@ -91,14 +91,50 @@ namespace api
 
         public static async Task LatitudeEndpoint(HttpContext context)        
         {
-            //TO DO
-            await context.Response.WriteAsync($"PLEASE IMPLEMENT ME");
+            string latCS = context.Request.RouteValues["lat"] as string;
+
+            using(var db = new VatsimDbContext())
+            {
+                if(latCS != null)
+                {
+                    Console.WriteLine($"Latitude requested for {latCS}");
+                   
+                    var _lat = await db.Positions.Where(f => f.Callsign.Contains((latCS ?? "").ToUpper())).ToListAsync();
+                    
+                    foreach (var item in _lat)
+                    {
+                        await context.Response.WriteAsync($"At {item.TimeStamp}, {item.Callsign}'s latitude was {item.Latitude}*" + "  ");
+                    }
+                }
+                else
+                {
+                    context.Response.StatusCode = StatusCodes.Status404NotFound;
+                }
+            } 
         }
 
         public static async Task LongitudeEndpoint(HttpContext context)
         {
-            //TO DO
-            await context.Response.WriteAsync($"PLEASE IMPLEMENT ME");
+            string lonCS = context.Request.RouteValues["lon"] as string;
+
+            using(var db = new VatsimDbContext())
+            {
+                if(lonCS != null)
+                {
+                    Console.WriteLine($"Longitude requested for {lonCS}");
+                   
+                    var _lon = await db.Positions.Where(f => f.Callsign.Contains((lonCS ?? "").ToUpper())).ToListAsync();
+                    
+                    foreach (var item in _lon)
+                    {
+                        await context.Response.WriteAsync($"At {item.TimeStamp}, {item.Callsign}'s longitude was {item.Longitude}*" + "  ");
+                    }
+                }
+                else
+                {
+                    context.Response.StatusCode = StatusCodes.Status404NotFound;
+                }
+            } 
         }
     }
 }
