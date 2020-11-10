@@ -1,0 +1,323 @@
+975	B738	Boeing 737-800
+914	A320	Airbus A320
+826	C172	Cessna Skyhawk
+409	P28A	Piper Cherokee
+343	A321	Airbus A321
+201	A319	Airbus A319
+186	C182	Cessna Skylane
+178	B737	Boeing 737-700
+171	B77W	BOEING 777-300ER
+130	B763	Boeing 767-300
+127	E75L	EMBRAER 175 (long wing)
+121	SR22	Cirrus SR-22
+114	B789	Boeing 787-9
+114	CRJ9	Canadair Regional Jet CRJ-900
+104	B739	Boeing BBJ3
+103	E190	Embraer ERJ-190
+86	A333	Airbus A330-300
+80	C208	Cessna Caravan
+75	PC12	Pilatus PC-12
+74	DA40	Diamond Star
+71	B77L	Boeing 777-200LR/F
+68	C152	Cessna 152
+67	B752	Boeing 757-200
+66	A359	Airbus A350-900
+63	B06	    Bell JetRanger
+63	B744	Boeing 747-400
+56	C150	Cessna Commuter
+55	CRJ7	Canadair Regional Jet CRJ-700
+52	A332	Airbus A330-200
+52	CRJ2	Canadair Regional Jet CRJ-200
+50	B788	Boeing 787-8
+49	E170	Embraer 170/175
+48	BE35	Beechcraft 35 Bonanza
+46	B407	Bell 407
+46	MD11	McDonnell Douglas MD-11
+44	PA44	Piper PA-44 Seminole
+44	SR20	Cirrus SR-20
+41	DV20	Diamond DV-20 Katana
+39	T206	Cessna T206 Turbo Stationair
+38	B772	Boeing 777-200
+38	C56X	Cessna Citation Excel/XLS
+37	A330	Airbus A330
+37	DH8D	de Havilland Dash 8-400
+36	AT72	ATR ATR-72
+36	BE36	Beechcraft Bonanza (36)
+35	A306	Airbus A300F4-600
+35	BE20	Beechcraft Super King Air 200
+35	P28R	Piper Cherokee Arrow
+34	M20P	Mooney M-20
+31	BE9L	Beechcraft King Air 90
+31	C72R	Cessna Cutlass RG
+31	PA32	Piper Saratoga
+30	BE58	Beechcraft Baron (58)
+29	AS50	Eurocopter AS-350 AStar
+29	BE33	Beechcraft Bonanza (33)
+29	R44	    Robinson R-44
+28	B190	Beechcraft 1900
+28	B733	BOEING 737-300
+26	E55P	Embraer Phenom 300
+26	E75S	Embraer ERJ 175
+25	B350	Beechcraft Super King Air 350
+25	EC35	Eurocopter EC-635
+24	B748	Boeing 747-8
+23	AT8T	AIR TRACTOR Fire Boss
+23	B732	Boeing 737-200
+22	C560	Cessna Citation V
+21	C206	Cessna 206 Stationair
+21	H25B	Raytheon Hawker 800
+20	B773	Boeing 777-300
+20	C177	Cessna Cardinal
+20	CL35	Canadair Challenger 350
+20	E145	Embraer ERJ-145
+20	PA34	Piper Seneca
+20	S22T	Cirrus SR22 Turbo
+19	A21N	Airbus A321neo
+19	AA5	    Grumman AA-5 Tiger
+19	B78X	Boeing 787-10
+19	LJ60	Learjet 60
+19	P32R	Piper Saratoga/Lance
+18	A20N	Airbus A320neo
+18	AT43	Aerospatiale ATR-42-300
+18	PA46	Piper Malibu Mirage
+17	BE40	Beechcraft Beechjet
+17	C210	Cessna Centurion
+17	C25B	Cessna Citation CJ3
+17	C402	Cessna 402
+17	C525	Cessna Citation CJ1
+17	CL30	Bombardier Challenger 300
+17	P46T	Piper Malibu Meridian
+17	PA31	Piper Navajo
+16	A35K	Airbus A350-1000
+16	B753	Boeing 757-300
+16	C550	Cessna Citation II
+16	E135	Embraer ERJ-135
+16	H500	RACA 500
+16	R22	    Robinson R-22
+15	C25A	Cessna Citation CJ2+
+15	C510	Cessna Citation Mustang
+15	C68A	Cessna Citation Latitude
+15	C750	Cessna Citation X
+14	BL8	    CHAMPION Decathlon
+14	C414	Cessna Chancellor
+14	C680	Cessna Citation Sovereign
+14	CL60	Canadair Challenger
+14	M20T	Mooney M-20 Turbo
+14	PA27	Piper Aztec
+13	C310	Cessna 310
+12	AT5T	AIR TRACTOR AT-503
+12	BE55	Beechcraft 55 Baron
+12	BE99	Beechcraft Airliner
+12	C180	Cessna Skywagon 180
+12	DH8A	de Havilland Dash 8-100
+12	M7	    MAULE MT-7-260 Super Rocket
+12	SU9	    Sukhoi Superjet 100
+12	SW4	    Fairchild Dornier SA-227DC Metro
+11	B734	Boeing 737-400
+11	BE30	Beechcraft Super King Air 300
+11	C340	Cessna 340
+11	C82R	Cessna Turbo Skylane RG
+11	DA42	Diamond Twin Star
+11	FA20	Dassault Falcon 20
+10	CH7A	CHAMPION Tri-Traveler
+10	CH7B	CHAMPION Sky-Trac
+10	LJ35	Learjet 35
+10	P28B	Piper Dakota / Pathfinder
+10	RV12	VAN'S RV-12
+10	S92	    Sikorsky Helibus
+9	A139	BELL-AGUSTA AB-139
+9	B712	Boeing 717-200
+9	B735	BOEING 737-500
+9	BE76	Beechcraft Duchess
+9	C170	Cessna 170
+9	C421	Cessna 421
+9	DH8C	de Havilland Dash 8-300
+9	F2TH	Dassault Falcon 2000
+9	PA24	Piper PA-24 Comanche
+9	TBM7	Socata TBM-700
+8	B762	BOEING 767-200
+8	CRK	    Bombardier CRJ-1000
+8	DH8B	de Havilland Dash 8-200
+8	E300	Extra EA-300
+8	E50P	Embraer Phenom 100
+8	PA30	Piper PA-30 Twin Comanche
+8	SF34	Saab 340
+8	T210	Cessna T210 Turbo Centurion
+7	BCS1	Airbus A220-100
+7	BE10	Beechcraft King Air 100
+7	C185	Cessna Skywagon
+7	C25C	Cessna Citation CJ4
+7	C441	Cessna Conquest 2
+7	EA50	Eclipse 500
+7	EC30	Eurocopter EC-130
+7	EC45	KAWASAKI EC-145
+7	GALX	IAI Gulfstream G200
+7	GLF4	Gulfstream Aerospace Gulfstream IV
+7	HUSK	CHRISTEN Husky
+7	PA18	Piper L-21 Super Cub
+7	R66	    Robinson R-66
+7	SF50	Cirrus Vision SF50
+7	TBM8	Socata TBM-850
+7	U21	    Beechcraft Ute (U-21A/G)
+6	A388	Airbus A380-800
+6	B429	Bell 429 GlobalRanger
+6	C140	Cessna 140
+6	F900	Dassault Falcon 900
+6	FA50	Dassault Falcon 50
+6	GLEX	Bombardier Global Express
+6	S76	    Sikorsky S-76
+6	SS2T	TERR-MAR Turbo Sea Thrush
+6	TBM9	Daher-Socata TBM-900
+5	A119	DENEL Koala
+5	A318	Airbus A318
+5	A343	Airbus A340-300
+5	B36T	Beechcraft Bonanza
+5	B736	Boeing 737-600
+5	BCS3	Airbus A220-300
+5	BE23	Beechcraft Sundowner
+5	E295	EMBRAER ERJ-190-400
+5	E45X	Embraer EMB-145XR
+5	LJ45	Learjet 45
+5	UH1	    Bell UH-1V Iroquois
+4	A109	SABCA A-109
+4	A30B	Airbus A300F4-200
+4	A339	AIRBUS A-330-900
+4	AT3T	AIR TRACTOR AT-402
+4	BE65	Beechcraft Queen Air (65)
+4	BE95	Beechcraft Travel Air
+4	C240	Cessna TTx
+4	C25M	Cessna Citation M2
+4	C650	Cessna Citation III
+4	C77R	Cessna 177RG Cardinal RG
+4	DC10	McDonnell Douglas DC-10
+4	E120	Embraer EMB-120 Brasilia
+4	E35L	Embraer Legacy 600/650
+4	HDJT	Honda HondaJet
+4	MU2	    Mitsubishi MU-2
+4	PA23	Piper Apache
+4	ST75	Boeing PT-17 Kaydet
+3	A748	Hawker Siddeley HS-748
+3	AA1	    Grumman Tr2
+3	AEST	Piper Aerostar
+3	AT6T	AIR TRACTOR AT-602
+3	B505	Bell 505
+3	B764	Boeing 767-400
+3	C162	Cessna Skycatcher
+3	C337	Cessna Super Skymaster
+3	C425	Cessna Conquest 1
+3	C55B	Cessna Citation Bravo
+3	CNA	    Cessna 402
+3	COL4	Cessna 400
+3	CVLT	CONVAIR CV-580
+3	E550	Embraer Legacy 550
+3	FA10	Dassault Falcon 10
+3	FDCT	FLIGHT DESIGN CT
+3	GL5T	Bombardier Global 5000
+3	LJ75	Bombardier Learjet 75
+3	M600	Piper Malibu Meridian
+3	NAVI	North American Navion
+3	P28T	Piper Arrow 4
+3	PC24	Pilatus PC-24
+3	PRM1	Beechcraft Premier 1
+3	RV7	    VAN'S RV-7
+2	A310	Airbus A310
+2	A3ST	SATIC Super Transporter
+2	AC11	Rockwell Commander 114
+2	AC50	Aero Commander 500
+2	AC95	Gulfstream Aerospace Jetprop Commander
+2	ASTR	IAI Gulfstream G100
+2	B463	British Aerospace BAe-146-300
+2	B58T	BEECH 58P Pressurized Baron
+2	BE24	Beechcraft Sierra
+2	BL17	BELLANCA Viking
+2	BLCF	Boeing 747 Large Cargo Freighter
+2	BT36	Beechcraft Bonanza (36) Turbo
+2	C120	Cessna 120
+2	C175	Cessna 175 Skylark
+2	C195	Cessna LC-126
+2	C205	Cessna 205
+2	C320	Cessna Executive Skyknight
+2	C404	Cessna 404 Titan
+2	COL3	Cessna 350
+2	E545	Embraer Legacy 450
+2	EC20	HARBIN HC-120
+2	ERCO	Mooney Aircoupe
+2	FA7X	Dassault Falcon 7X
+2	G150	IAI Gulfstream G150
+2	GA6C	GULFSTREAM AEROSPACE G-7 Gulfstream G600
+2	GC1	    TEMCO Swift
+2	GLF6	Gulfstream Aerospace Gulfstream G650
+2	M5	    MAULE M-5 Strata Rocket
+2	P180	Piaggio P.180 Avanti
+2	P210	Cessna P210 Pressurized Centurion
+2	P28S	Piper Turbo Arrow 3
+2	P28U	Piper Turbo Arrow 4
+2	P32T	Piper Lance 2
+2	PA25	Piper PA-25 Pawnee
+2	PAY1	Piper Cheyenne
+2	RV10	VAN'S RV-10
+2	RV14	VAN'S RV-14
+2	TAMP	Socata TB-9 Tampico
+1	A346	Airbus A340-600
+1	AJ27	COMAC ARJ-21-700 Xiangfeng
+1	AR15	AERONCA Sedan
+1	AT45	ALENIA Surveyor (ATR-42-500)
+1	AT46	Aerospatiale ATR-42-600
+1	AWH	    Bell AB-139
+1	B427	Bell 427
+1	B462	British Aerospace BAe-146-200
+1	B722	Boeing 727-200
+1	BE17	Beechcraft Staggerwing
+1	BE60	Beechcraft Duke
+1	BE77	Beechcraft Skipper
+1	BE9T	Beechcraft King Air F90
+1	C130	Lockheed C-130 Hercules
+1	C207	Cessna T207 Turbo Stationair 8
+1	C303	Cessna T303 Crusader
+1	C500	Cessna 500 Citation 1
+1	C551	Cessna 551 Citation 2SP
+1	C82S	CESSNA T182 Turbo Skylane
+1	CRJ	    Canadair Regional Jet CRJ-200
+1	D228	Fairchild Dornier 228
+1	DC3	    Douglas DC-3
+1	DC3T	Douglas DC-3 (turbine)
+1	DG15	HOWARD (1) Nightingale
+1	E110	Embraer EMB-110 Bandeirante
+1	EPIC	Epic Aircraft LT
+1	EXPR	Experimental
+1	F100	Fokker 100
+1	F406	Cessna F406 Vigilant
+1	GA5C	Gulfstream Aerospace Gulfstream G-7
+1	GLF3	Gulfstream Aerospace Gulfstream 3
+1	GLF5	Gulfstream Aerospace Gulfstream V
+1	H269	SCHWEIZER 269
+1	H60	    Sikorsky S-70
+1	HA4T	Hawker Beechcraft 4000
+1	J3	    Piper NE Cub
+1	J328	Fairchild Dornier 328JET
+1	JS32	British Aerospace Jetstream Super 31
+1	JS41	JETSTREAM Jetstream 41
+1	KODI	Quest Kodiak
+1	L410	LET Turbolet
+1	LA4	    LAKE LA-200
+1	LJ40	Learjet 40
+1	LJ70	Bombardier Learjet 70
+1	LNC4	Lancair Lancair 4
+1	MD82	McDonnell Douglas MD-82
+1	MD83	McDonnell Douglas MD-83
+1	P212	TECNAM P-2012 Traveller
+1	P3	    Lockheed P-3 Orion
+1	PA12	Piper PA-12 Super Cruiser
+1	PA20	Piper PA-20 Pacer
+1	PA22	Piper PA-22 Tri-Pacer
+1	PA38	Piper Tomahawk
+1	PAY2	Piper Cheyenne 2
+1	PC6T	Pilatus PC-6B Turbo-Porter
+1	PTS2	PITTS Special (S-2)
+1	S108	Piper 108 Voyager
+1	SB20	Saab 2000
+1	SX30	Swearingen SX-300
+1	T38	    Northrop T-38 Talon
+1	T6	    North American T-6 Texan
+1	TAYB	TAYLORCRAFT (1) BL
+1	TWEN	TECNAM P-2010 Twenty-Ten
