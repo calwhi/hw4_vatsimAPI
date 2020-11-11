@@ -41,6 +41,10 @@ namespace api
 
         /* NOTE: All of these require that you first obtain a pilot and then search in Positions */
 
+        //CALEB L WHITE
+        //1030708 WTAMU ID
+        //11/10/2020
+
         public static async Task AltitudeEndpoint(HttpContext context)
         {
             string pilotAltCS = context.Request.RouteValues["alt"] as string;
@@ -52,6 +56,8 @@ namespace api
                     Console.WriteLine($"Altitude requested for {pilotAltCS}");
                    
                     var _alt = await db.Positions.Where(f => f.Callsign.Contains((pilotAltCS ?? "").ToUpper())).ToListAsync();
+
+                    await context.Response.WriteAsync($"*************** THERE ARE {_alt.Count()} RECORD(S) FOR {pilotAltCS} *******************          ");
                     
                     foreach (var item in _alt)
                     {
@@ -76,6 +82,8 @@ namespace api
                     Console.WriteLine($"Speed requested for {pilotSpeedCS}");
                    
                     var _spd = await db.Positions.Where(f => f.Callsign.Contains((pilotSpeedCS ?? "").ToUpper())).ToListAsync();
+
+                    await context.Response.WriteAsync($"*************** THERE ARE {_spd.Count()} RECORD(S) FOR {pilotSpeedCS} *******************          ");
                     
                     foreach (var item in _spd)
                     {
@@ -100,6 +108,8 @@ namespace api
                     Console.WriteLine($"Latitude requested for {latCS}");
                    
                     var _lat = await db.Positions.Where(f => f.Callsign.Contains((latCS ?? "").ToUpper())).ToListAsync();
+
+                    await context.Response.WriteAsync($"*************** THERE ARE {_lat.Count()} RECORD(S) FOR {latCS} *******************          ");
                     
                     foreach (var item in _lat)
                     {
@@ -124,6 +134,8 @@ namespace api
                     Console.WriteLine($"Longitude requested for {lonCS}");
                    
                     var _lon = await db.Positions.Where(f => f.Callsign.Contains((lonCS ?? "").ToUpper())).ToListAsync();
+
+                    await context.Response.WriteAsync($"*************** THERE ARE {_lon.Count()} RECORD(S) FOR {lonCS} *******************          ");
                     
                     foreach (var item in _lon)
                     {
@@ -134,6 +146,10 @@ namespace api
                 {
                     context.Response.StatusCode = StatusCodes.Status404NotFound;
                 }
+
+            //CALEB L WHITE
+            //1030708 WTAMU ID
+            //11/10/2020
             } 
         }
     }
